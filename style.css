@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+#baslik {
+  color: #1a1a1b;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  border-bottom: 2px solid #d3d6da;
+  padding: 0.8rem 0;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+#board {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 1rem;
+}
+
+.row {
+  display: flex;
+  gap: 5px;
+}
+
+.cell {
+  width: 68px;
+  height: 68px;
+  border: 2px solid #d3d6da;
+  background-color: #ffffff;
+  color: #1a1a1b;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#klavye {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 1rem;
+}
+
+.klavye-satir {
+  display: flex;
+  gap: 5px;
+}
+
+.tus {
+  height: 56px;
+  min-width: 43px;
+  background-color: #d3d6da;
+  color: #1a1a1b;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 6px;
+}
+
+#enter-tus {
+  min-width: 65px;
+  font-size: 0.75rem;
+}
+
+#sil-tus {
+  min-width: 65px;
+  font-size: 1rem;
+}
+
+.tus:hover {
+  background-color: #b0b3b8;
+}
+
+#yeniOyun {
+  margin-top: 0.5rem;
+  padding: 0.8rem 2rem;
+  background-color: #538d4e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+
+#yeniOyun:hover {
+  background-color: #6aaf5e;
+}
